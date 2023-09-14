@@ -1,0 +1,31 @@
+name: 'Github Action Soti Apk Uploader'
+description: 'a Github Action to push an Apk on Soti'
+inputs:
+  soti-api-url:
+    description: 'Soti api url'
+    required: true
+  apk-path:
+    description: 'apk path'
+    required: true
+  soti-api-key:
+    description: 'Soti api key'
+    required: true
+  soti-api-secret:
+    description: 'Soti api secret'
+    required: true
+  soti-username:
+    description: 'Soti username'
+    required: true
+  soti-password:
+    description: 'Soti password'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.soti-api-url }}
+    - ${{ inputs.apk-path }}
+    - ${{ inputs.soti-api-key }}
+    - ${{ inputs.soti-api-secret }}
+    - ${{ inputs.soti-username }}
+    - ${{ inputs.soti-password }}
