@@ -21,6 +21,8 @@ client_secret = args.client_secret
 username = args.username
 password = args.password
 
+Apk_is_already_push = 1611
+
 
 def encode_multipart_related(fields, boundary=None):
     if boundary is None:
@@ -78,5 +80,24 @@ resp = requests.post(
 print(resp.status_code, "\n")
 print("Message: %s" % resp.json())
 
-if not (200 <= resp.status_code < 300):
-    raise Exception("Issue was encountered while uploading APK on SOTI !")
+if resp.status_code == 400:
+    raise Exception(
+        (
+            "Error while uploading APK on SOTI :"
+            "Bad request, ie. Invalid application or package file contents or metadata "
+        )
+    )
+if resp.status_code == 401:
+    raise Exception("Error while uploading APK on SOTI : Unauthorized")
+if resp.status_code == 415:
+    raise Exception(
+        "Error while uploading APK on SOTI : Unsupported content media type"
+    )
+if resp.status_code == 422:
+    if resp.json()["ErrorCode"] != Apk_is_already_push:
+        raise Exception(
+            (
+                "Error while uploading APK on SOTI :"
+                "Package verification failure, ie. Invalid Application or Package Platform or Version"
+            )
+        )
