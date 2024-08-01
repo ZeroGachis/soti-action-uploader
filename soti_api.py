@@ -74,7 +74,7 @@ class SotiApi:
         
         self._check_response(resp, "getting token")
 
-        self.token = resp.json()["access_token"]
+        return resp.json()["access_token"]
 
     def _encode_multipart_related(self, fields, boundary=None):
         if boundary is None:
