@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: soti-action-uploader
+  annotations:
+    github.com/project-slug: ZeroGachis/soti-action-uploader
+spec:
+  type: library
+  lifecycle: production
+  system: Platform
+  owner: DevOps
