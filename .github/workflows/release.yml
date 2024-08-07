@@ -1,0 +1,11 @@
+name: "Release"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-release:
+    uses: ZeroGachis/.github/.github/workflows/gh-release-please.yml@v4
