@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.5](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.4...v2.0.5) (2024-08-28)
+
+
+### Miscellaneous Chores
+
+* release 2.0.5 ([4fbf9fb](https://github.com/ZeroGachis/soti-action-uploader/commit/4fbf9fb0cd2c8baba70add22b14e0b2d49f6cf62))
+
 ## [2.0.4](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.2...v2.0.3) (2024-08-28)
 
 ### Bug Fixes
