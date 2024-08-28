@@ -2,8 +2,7 @@
 FROM python:3.12-alpine
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
-COPY entrypoint.sh /entrypoint.sh
-COPY upload_package.py soti_apy.py / 
+COPY entrypoint.sh upload_package.py soti_api.py / 
 
 RUN pip3 install requests
 RUN pip3 install urllib3
