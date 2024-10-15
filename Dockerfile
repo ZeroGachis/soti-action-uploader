@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM python:3.12-alpine
+FROM python:3.13-alpine
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh upload_package.py soti_api.py / 
