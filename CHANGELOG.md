@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.7](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.6...v2.0.7) (2024-10-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update python docker tag to v3.13 ([9cd72dc](https://github.com/ZeroGachis/soti-action-uploader/commit/9cd72dccc3a64687a8104c94125b683af95528e2))
+
 ## [2.0.6](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.5...v2.0.6) (2024-10-01)
 
 
