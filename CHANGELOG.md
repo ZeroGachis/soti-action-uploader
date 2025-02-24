@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.8](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.7...v2.0.8) (2025-02-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency urllib3 to v2.3.0 ([bf710de](https://github.com/ZeroGachis/soti-action-uploader/commit/bf710deab5f5fd9c46a109c4b52f6b1474004414))
+
 ## [2.0.7](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.6...v2.0.7) (2024-10-23)
 
 
