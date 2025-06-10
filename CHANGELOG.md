@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.10](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.9...v2.0.10) (2025-06-10)
+
+
+### Bug Fixes
+
+* **security:** Update dependency requests to v2.32.4 [SECURITY] ([8226632](https://github.com/ZeroGachis/soti-action-uploader/commit/8226632faf52d3fd20d4e8e91becf48c36a49f8d))
+
 ## [2.0.9](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.8...v2.0.9) (2025-04-28)
 
 
