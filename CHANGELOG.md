@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.10...v2.1.0) (2025-06-25)
+
+
+### Features
+
+* add security scan workflow ([3d101bc](https://github.com/ZeroGachis/soti-action-uploader/commit/3d101bc251037edf4fe993e5af26f4b380fc76e0))
+
 ## [2.0.10](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.9...v2.0.10) (2025-06-10)
 
 
