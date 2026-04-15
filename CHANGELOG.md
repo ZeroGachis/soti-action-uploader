@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.10...v2.1.0) (2026-04-15)
+
+
+### Features
+
+* add security scan workflow ([3d101bc](https://github.com/ZeroGachis/soti-action-uploader/commit/3d101bc251037edf4fe993e5af26f4b380fc76e0))
+
+
+### Continuous Integration
+
+* Add security-scan workflow triggered once a week ([4bd9b8c](https://github.com/ZeroGachis/soti-action-uploader/commit/4bd9b8c1b66a206816180cef6f2afc0ebdc4d714))
+* Remove deprecated security_scan_repo workflow ([06ab18a](https://github.com/ZeroGachis/soti-action-uploader/commit/06ab18a7e02a0562e5aeff011cb5615d200d9261))
+
 ## [2.0.10](https://github.com/ZeroGachis/soti-action-uploader/compare/v2.0.9...v2.0.10) (2025-06-10)
 
 
